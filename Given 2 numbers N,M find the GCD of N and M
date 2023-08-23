@@ -1,0 +1,6 @@
+import math                                  #import math here
+a,b=list(map(int,(input().split())))         #getting the value for a and b
+if a and b !=0:                              #here a and b cannot be zero,if zero means we print -1
+  print(math.gcd(a,b))
+else:
+  print(-1)
